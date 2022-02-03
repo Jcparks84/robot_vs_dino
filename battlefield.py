@@ -1,4 +1,5 @@
 from herd import Herd
+
 class Battlefield:
     def __init__(self):
         self.fleet = ''

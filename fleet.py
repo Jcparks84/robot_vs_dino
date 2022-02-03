@@ -1,11 +1,10 @@
-from dinosaur import Dinosaur
+from robot import Robot
 
-
-class Herd:
+class Fleet:
     def __init__(self):
         self.dino_list = ['']
 
-    def set_dino_list(self):
+    def set_create_fleet(self):
         self.dino_list = ['']
         print(self.dino_list)
         pass
