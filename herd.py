@@ -11,8 +11,8 @@ class Herd:
         dino_2 = Dinosaur('raptor', 25)
         dino_3 = Dinosaur('steg', 20)
 
-        self.dinosaur.append(dino_1)
-        self.dinosaur.append(dino_1)
-        self.dinosaur.append(dino_1)
+        self.dino_list.append(dino_1)
+        self.dino_list.append(dino_2)
+        self.dino_list.append(dino_3)
 
         

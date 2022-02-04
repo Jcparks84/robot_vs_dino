@@ -8,7 +8,10 @@ class Battlefield:
         self.herd = Herd()
 
     def run_game(self):
-        pass
+        print(self.fleet.robo_list[0].robo_weapon.weapon_name)
+
+        self.fleet.robo_list[0].robo_attack(self.herd.dino_list[0])
+        
 
     def display_welome(self):
         print('Welcome to Robots vs Dinosaurs')
@@ -21,13 +24,15 @@ class Battlefield:
        
 
     def dino_turn(self, dinosaur):
+        pass
         
 
-    def robo_turn(Self, robot):
+    def robo_turn(self, robot):
         pass
     
     def show_dino_opponent_options(self):
-        pass
+        for dino in self.herd.dino_list:
+            print(dino.dino_name)
 
     def show_robo_opponent_options(self):
         pass
