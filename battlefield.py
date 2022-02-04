@@ -1,3 +1,4 @@
+from random import random
 from herd import Herd
 from fleet import Fleet
 
@@ -10,13 +11,17 @@ class Battlefield:
         pass
 
     def display_welome(self):
-        pass
+        print('Welcome to Robots vs Dinosaurs')
+        print('Each character starts with 100 health')
 
+        
     def fleet_vs_herd_battle(self):
-        pass
+        print("A fleet of robot invaders have come to sieze control of planet IIOOIO but the dinosaur herd aren't going down without a fight")
+        print('Whoever remains at the end will be the victor')
+       
 
     def dino_turn(self, dinosaur):
-        pass
+        
 
     def robo_turn(Self, robot):
         pass
