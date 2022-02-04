@@ -17,8 +17,6 @@ class Battlefield:
         print("A fleet of robot invaders have come to sieze control of planet IIOOIO but the dinosaur herd aren't going down without a fight")
         print('Whoever remains at the end will be the victor')
 
-        
-    def fleet_vs_herd_battle(self):
         fleet_vs_herd_battle = int(input('choose your team: press 1 for robots or 2 for dinosaurs '))
         if fleet_vs_herd_battle == 1:
             print('You chose Robots!')
@@ -26,12 +24,16 @@ class Battlefield:
         elif fleet_vs_herd_battle == 2:
             print('You chose Dinosaurs!')
             return fleet_vs_herd_battle
+
+        
+    def fleet_vs_herd_battle(self):
+        while len(self.herd.dino_health) > 1 and len(self.fleet.robo_health) > 0:
     
        
 
     def dino_turn(self, dinosaur):
-        while len(self.herd.dino_health) > 1:
-            pass
+        pass
+
             
     def robo_turn(self, robot):
         pass
