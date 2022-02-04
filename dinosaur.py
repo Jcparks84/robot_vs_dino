@@ -3,7 +3,6 @@ class Dinosaur:
         self.dino_name = name
         self.dino_attack = attack_power
         self.dino_health = 100
-        self.attack_list = ['bite', 'claw', 'stomp']
 
 
     def set_dino_attack(self, robot):

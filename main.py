@@ -1,5 +1,5 @@
 from battlefield import Battlefield
 
 battlefield = Battlefield()
-battlefield.run_game()
-battlefield.show_dino_opponent_options()
+battlefield.display_welome
+battlefield.fleet_vs_herd_battle
