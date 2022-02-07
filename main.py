@@ -2,10 +2,3 @@ from battlefield import Battlefield
 
 battlefield = Battlefield()
 battlefield.run_game
-battlefield.display_welome
-battlefield.fleet_vs_herd_battle
-battlefield.dino_turn
-battlefield.robo_turn
-battlefield.show_dino_opponent_options
-battlefield.show_robo_opponent_options
-battlefield.display_winners

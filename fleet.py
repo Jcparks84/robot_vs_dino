@@ -1,5 +1,5 @@
 from robot import Robot
-from weapon import Weapon
+from robot import Robot
 
 class Fleet:
     def __init__(self):
